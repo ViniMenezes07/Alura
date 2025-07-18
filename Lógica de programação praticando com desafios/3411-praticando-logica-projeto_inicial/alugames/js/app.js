@@ -8,6 +8,7 @@ function alterarStatus(id) {
     let gameClicado = document.getElementById(`game-${id}`);
     let imagem = gameClicado.querySelector('.dashboard__item__img');
     let botao = gameClicado.querySelector('.dashboard__item__button');
+    //linha de cima estou recupernado as funçoes no html via variavel.
 
     if (imagem.classList.contains('dashboard__item__img--rented')){
         // Adiciona uma confirmação antes de devolver o jogo
