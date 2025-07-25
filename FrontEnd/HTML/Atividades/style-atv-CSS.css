@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.atividade1 {
+    margin: 0px 250px;
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+.texto-destaque {
+    color: aqua;
+}
