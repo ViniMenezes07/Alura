@@ -2,21 +2,45 @@
 <!--Usar ! ja escreve o codigo para iniciar o html-->
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Usado apenas para o navegadr edge, importante deixar.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-atv-CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
     <title>Atividades CSS</title>
 </head>
 <body>
     <header></header><!--usa para fazer menu-->
     <main>
-        <h1>Lista de Atividades <Strong class="titulo">CSS</Strong></h1>
-        <p class="atividade1" > 1) Estilizando elementos com classes CSS
-            Você está trabalhando nocdesenvolvimento de uma página web e precisa aplicar estilos específicos a diferentes elementos usando classes CSS. Seu desafio é criar uma classe chamada <span class="texto-destaque"> "texto-destaque"</span> no arquivo HTML para um elementos, em seguida, estilizar essa classe no arquivo CSS para alterar a cor do texto. Use sua criatividade para escolher cores que tornem o texto destacado, mas ainda legível e harmonioso com o design geral da página.
-        
+        <h1 class="lista-atividades">Lista de Atividades <Strong class="titulo">CSS</Strong></h1>
+        <p class="atividade1" > <strong class="enunciado"> 1) Estilizando elementos com classes CSS </strong><br>
+        Você está trabalhando nocdesenvolvimento de uma página web e precisa aplicar estilos específicos a diferentes elementos usando classes CSS. Seu desafio é criar uma classe chamada <span class="texto-destaque"> "texto-destaque"</span> no arquivo HTML para um elemento (p), em seguida, estilizar essa classe no arquivo CSS para alterar a cor do texto. Use sua criatividade para escolher cores que tornem o texto destacado, mas ainda legível e harmonioso com o design geral da página.             
+        </p><br>
+
+        <p class="atividade1"> <strong class="enunciado"> 2) Destacando títulos com CSS
+        </strong><br>
+        Imagine que você está desenvolvendo um blog e precisa destacar os títulos das postagens. Crie uma classe CSS chamada "titulo-blog" e aplique-a a elementos (h1) no seu arquivo HTML. Em seguida, personalize essa classe no arquivo CSS para mudar a cor do texto, para dar mais destaque.
         </p>
+        <h1 class="titulo-blog">Titulo do blog - Resposta da Atividade 2</h1><br>
+
+        <p class="atividade1"> <strong class="enunciado"> 3) Estilos situacionais com classes CSS
+        </strong><br>
+        Você está trabalhando em um site de notícias e precisa aplicar um estilo diferente para notícias urgentes. Crie uma classe CSS chamada "urgente" e aplique-a a elementos (p) que contêm notícias urgentes. No CSS, faça com que o texto desses parágrafos seja vermelho, para chamar a atenção do leitor.
+        <p class="urgente">Noticia Ugente, <strong> ACABO DE RESPONDER A ATIVIDADE 3</strong></p><br>
         
+        <p class="atividade1"> <strong class="enunciado"> 4) Entendendo e aplicando o reset CSS
+        </strong><br>
+        Você está trabalhando em um projeto de site e notou que o layout está um pouco desorganizado devido aos estilos padrões aplicados pelo navegador. Sua tarefa é aplicar um "reset CSS" para remover esses estilos padrão. Comece criando um arquivo CSS e utilize o seletor universal * para definir a margin e o padding de todos os elementos para 0. Teste o efeito dessa mudança no layout do seu site. </p> <br>
+
+        <p class="atividade1"> <strong class="enunciado"> 5) Inspecionando elementos e entendimento do modelo de caixa</strong><br>
+        Como quem trabalha com front-end, você precisa entender como os estilos são aplicados aos elementos da sua página. Use as ferramentas de desenvolvimento (DevTools) do navegador para inspecionar o modelo de caixa de um elemento do seu site. Preste atenção nas propriedades margin, border, padding e content. Descreva como essas propriedades estão afetando o elemento selecionado. <br> <br>
+        <span class="resposta">O margin, cria margens nos elementos fazendo com que nada possa chegar perto dele, e existem algumas maneiras de alterar, usando apenas um paramentro como -- 20px -- voce cria uma margem retangular envolta dele de 20 pixels, se colocar --20px 30px-- vc cria a mesma margem so que agora sera uma de 20 pixels por 30 pixels, padding e usado para afastar a borda do conteudo, e a border coloca uma borda envolta do conteudo todos eles podem ser alterados atraves do mesmo parametro usado do margin</p></span> <br>
+        
+        <p class="atividade1"> <strong class="enunciado">6) Aplicando o modelo de caixa na prática</strong><br>
+        <span class="testando-caixa">Agora que você entendeu o modelo de caixa CSS, aplique esse conhecimento no seu projeto. Selecione um elemento específico (por exemplo, um parágrafo) e ajuste as propriedades de margin, border, padding e content. Observe como cada alteração afeta o posicionamento e a aparência do elemento na página.</span></p>
+
     </main><!--principal, meio da pagina-->
     <footer></footer><!--rodapé da pagina-->
 </body>

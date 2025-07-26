@@ -2,18 +2,61 @@ body{
     background-color: black;
     color: white;
 }
-h1 {
+
+.lista-atividades {
     font-size: 50px;
     text-align: center;
+    margin: 20px;
 }
 
 .atividade1 {
-    margin: 0px 550px;
-    font-size: 20px;
+    margin: 0px 500px;
+    font-size: 18px;
     text-align: justify;
+    text-align: center;
+}
+
+.enunciado {
+    color: greenyellow;
+    font-size: 22px;
     text-align: center;
 }
 
 .texto-destaque {
     color: aqua;
+    font-style: italic;
+}
+
+.titulo-blog {
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+    margin: 0px;
+}
+
+.urgente {
+    margin: 0px 500px;
+    font-size: 30px;
+    text-align: justify;
+    text-align: center;
+    background-color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.resposta {
+    background-color: white;
+    color: black;
+    font-style: italic;
+    
+}
+
+.testando-caixa{
+    margin: 150px;
+    border: 52px;
+    padding: 80px;
+    content: 30px;
 }
