@@ -4,10 +4,17 @@
 }
 
 body {
+    height: 100vh; /*permite que o conteudo utilize toda a tela do site*/
+    box-sizing: border-box; /* bom uso para não permitir que as coisas saim do range do body */
     background-color: black;
     color: #F6F6F6;
 }
 
 .titulo-destaque {
     color: #22D4FD;
+}
+
+.apresentacao {
+    display: flex; /*joga tudo na mesma linha*/
+    align-items: center;/*coloca tudo no centro comnforme o maior item*/
 }

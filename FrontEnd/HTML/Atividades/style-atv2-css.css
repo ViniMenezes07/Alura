@@ -1,0 +1,95 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    color: greenyellow;
+}
+
+.lista-atividades {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+.atividade1 {
+    margin: 0px 500px;
+    font-size: 18px;
+    text-align: justify;
+    text-align: center;
+}
+
+.enunciado {
+    color: greenyellow;
+    font-size: 22px;
+    text-align: center;
+}
+
+.texto-destaque {
+    color: aqua;
+    font-style: italic;
+}
+
+.titulo-blog {
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+    margin: 0px;
+}
+
+.container {
+    background-color: white; /* Define o fundo branco */
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    border: 5px solid black; /* Define a borda preta */
+    border-radius: 50px; /* Arredonda a borda */
+    padding: 20px; /* Espaçamento interno */
+    width: 30%; /* Largura do container */
+    margin: 0 auto; /* Centraliza o container */
+    color: black; /* Cor do texto */
+    }   
+
+    .cor-logo {
+        color: orangered; /* Cor do texto "Lorem Ipsum" */
+    }
+
+    .conteudo {
+        display: flex; /* Ativa o Flexbox */
+        align-items: center; /* Alinha os itens verticalmente */
+        width: 100%; /* Largura do container */
+        justify-content: space-between; /* Espaça os itens */
+    }
+
+    .texto {
+        text-align: center; /* Centraliza o texto */
+        font-size: 30px; /* Tamanho da fonte */
+    }
+
+    .texto-e-botao {
+        text-align: center; /* Centraliza o texto */
+        font-size: 25px; /* Tamanho da fonte */
+    }
+
+    .botao {
+        background-color: blue; /* Fundo azul */
+        border: 5px solid blue; /* Borda azul */
+        border-radius: 10px; /* Arredonda a borda */
+        display: inline-block; /* Define como bloco inline */
+        margin-top: 10px; /* Espaço acima */
+        color: white; /* Cor do texto */
+    }
+
+    .logonova {
+        border-radius: 100%; /* Arredonda a imagem */
+        width: 50%; /* Largura da imagem */
+        max-width: 300px; /* Largura máxima */
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
