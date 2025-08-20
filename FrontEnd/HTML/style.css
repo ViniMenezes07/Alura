@@ -58,3 +58,9 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
 }
+
+.imagem{
+    margin: 0;
+    width: 500px;
+    border-radius: 20px;
+}
