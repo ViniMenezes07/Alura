@@ -88,6 +88,28 @@ body{
         width: 50%; /* Largura da imagem */
         max-width: 300px; /* Largura máxima */
     }
+    
+.container2 {
+    background-color: white; /* Define o fundo branco */
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    border: 5px solid black; /* Define a borda preta */
+    border-radius: 50px; /* Arredonda a borda */
+    padding: 20px; /* Espaçamento interno */
+    width: 30%; /* Largura do container */
+    margin: 0 auto; /* Centraliza o container */
+    color: black; /* Cor do texto */
+    }
+    .texto-bola{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .bola{
+        border-radius: 100%; /* Arredonda a imagem */
+        width: 50%; /* Largura da imagem */
+        max-width: 300px; /* Largura máxima */
+    }
 
 * {
     margin: 0;
